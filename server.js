@@ -5,8 +5,9 @@ var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 var session = require('express-session');
 var MongoStore = require('connect-mongo')(session);
+mongo_uri = "mongodb+srv://yy6vDayxyzVkp1t2:mani@cluster0.hfnzb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 
-mongoose.connect('mongosh "mongodb+srv://cluster0.hfnzb.mongodb.net/myFirstDatabase" --loginmani yy6vDayxyzVkp1t2', {
+mongoose.connect(process.env.mongo_uri||'mongodb://localhost:27017/login', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }, (err) => {
