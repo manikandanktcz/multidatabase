@@ -1,0 +1,33 @@
+body,
+ table,
+    thead,
+    tr,
+    tbody,
+    th,
+    td {
+        text-align: center;
+    }
+body{
+	text-align: center !important;
+    padding-top: 200px;
+    background-color:#1abc9c ;
+}
+p{
+	margin-top: 20px;
+	font-size: 30px;
+}
+input{
+	text-align: center;
+    border-radius: 120px !important;
+    height: 50px !important;
+}
+.mssg{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+.btn{
+   background-color: #2d3d4a !important;
+   width: 615px;
+   height: 50px;
+}
