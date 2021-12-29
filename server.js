@@ -6,7 +6,7 @@ var mongoose = require('mongoose');
 var session = require('express-session');
 var MongoStore = require('connect-mongo')(session);
 
-mongoose.connect('mongodb://localhost:27017/db', {
+mongoose.connect('mongosh "mongodb+srv://cluster0.hfnzb.mongodb.net/myFirstDatabase" --loginmani yy6vDayxyzVkp1t2', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }, (err) => {
