@@ -5,7 +5,7 @@ var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 var session = require('express-session');
 var MongoStore = require('connect-mongo')(session);
-mongo_uri = "mongodb+srv://manikandanktcz:Mani@227799@cluster0.go8w5.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+mongo_uri = "mongodb+srv://admin:mani@cluster0.go8w5.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 
 mongoose.connect(process.env.mongo_uri||'mongodb://localhost:27017/login', {
   useNewUrlParser: true,
